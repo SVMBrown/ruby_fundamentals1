@@ -9,3 +9,10 @@ unless cents % 100 == 0
 end
 puts "The bill comes to $#{dollars} with a $#{dollars - price} tip."
 
+puts "hello" + 17.to_s
+num1 = 45628
+num2 = 7839
+puts "#{num1} * #{num2} = #{num1 * num2}"
+
+#I guess true, since the last condition is !false
+puts (true && false) || (false && true) || !(false && false)
